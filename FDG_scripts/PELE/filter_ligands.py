@@ -10,7 +10,7 @@ s2_csv = pd.read_csv("/gpfs/projects/bsc72/bsc72876/PELE_KRAS_2/KRAS_s2.csv")
 # filter ligands by threshold
 x_csv = pd.read_csv("/gpfs/projects/bsc72/bsc72876/PELE_KRAS_2/KRAS_x.csv")
 threshold = float(x_csv["all_BFE"])
-print(threshold) #-90.8071
+print(threshold) #-104.347
 
 s4_csv_filtered = s4_csv.loc[s4_csv["all_BFE"] < -104.347]
 s4_csv_filtered.to_csv('/gpfs/projects/bsc72/bsc72876/PELE_KRAS_2/KRAS_s4_filtered.csv')
