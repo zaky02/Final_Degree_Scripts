@@ -1,0 +1,7 @@
+These scripts are to identify the unique ligands that LigBuilderV3 output and the fragments that each ligand attached.
+
+- The detetc_frag script generates an sdf file that detects and stores all of the fragments that have been used to generate the
+  de-novo ligands.
+
+- The unique_ligands script stores into an sdf file all ligands that are unique in order to retrieve only one of the ligand 
+  conformations LigBuilderV3 offers for each ligand.
