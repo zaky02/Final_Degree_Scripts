@@ -1,0 +1,7 @@
+These python scripts are utilised to get chemical information on the fragments and change their atom names.
+
+- The parse_frags script changes all dummy atoms from the fragments to H.spc (special hydrogens) as it is a requirement from LigBuilderV3
+  to correctly identify the connection sites.
+
+- The test_chemical_viability script is to get chemical information such as the molecular weight, number of hydrogen bond donors and acceptors 
+  and number of aromatic and aliphatic rings.
