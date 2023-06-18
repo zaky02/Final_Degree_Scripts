@@ -1,0 +1,12 @@
+These are the scripts used to assess the results developed by PELE. The scripts used to execute PELE are from the PELE_ConStraParl 
+repository.
+
+- The boxplot_graphs script generates boxplots for the top performing fragments.
+
+- The csv_prep script eliminates all commas from the Glide csv in order to be able to correlate it to the one developed by PELE.
+
+- The filter_ligands script filters all the ligands in the csv developed by PELE by the threshold corresponding to the binding free energy 
+  of the mirati ligand.
+
+- The scatterplot_graphs script generates scatterplots between Glide gscores and PELE binding free energy to check for correlation and also 
+  places a green horizontal line to depict the mirati ligand score to visually see the amount of ligands below such score. 
