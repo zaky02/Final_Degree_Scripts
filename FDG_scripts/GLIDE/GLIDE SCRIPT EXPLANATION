@@ -1,0 +1,11 @@
+These are the python scripts used to execute Glide and generate the graphs according to the Glide scores. 
+
+- The prep_lig script prepares the ligands we want to assess through ligprep a software from Schrödinger which gives different 3D conformations 
+  to the input ligands by using different torsion angles and different ionic states.
+
+- The grid_setup script sets the receptor grid for our docking with a hydrogen bond and a positional constraint.
+
+- The docking_setup scripts performs the docking of the ligands into the receptor protein and score the docking pose.
+
+- The graphs_glide script generates histograms on the scores obtained by the ligands and scatterplots comparing the scores between LigBuilder and 
+  Glide to check for any correlation.
